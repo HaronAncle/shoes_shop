@@ -1,0 +1,18 @@
+.special__button3,
+.special__button3:visited {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: var(--main-theme-background);
+    color: var(--main-theme-text-color);
+    transition: 0.3s;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.special__button3:hover,
+.special__button3:focus {
+    background: var(--main-theme-hover-background);
+    color: var(--main-theme-hover-text-color);
+}

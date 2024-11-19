@@ -1,0 +1,66 @@
+.smalllogo svg,
+.smalllogo__withcount svg {
+    width: 35px;
+    height: 35px;
+}
+.smalllogo svg path,
+.smalllogo__withcount svg path {
+    fill: var(--header-text-color);
+}
+.smalllogo__withcount {
+    position: relative;
+}
+.title {
+    font-weight: 700;
+    font-size: calc(1rem * 2.3);
+    margin-left: calc(1rem * 2);
+    margin-bottom: calc(var(--margin-standart) * 0.6);
+}
+.container {
+    max-width: var(--conteiner-width);
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 350px) {
+}
+@media (min-width: 576px) {
+    .container {
+        --conteiner-width: 540px;
+    }
+    .smalllogo svg,
+    .smalllogo__withcount svg {
+        width: 40px;
+        height: 40px;
+    }
+    .subtitle {
+        font-size: calc(1rem * 2.3);
+        margin-left: calc(1rem * 2);
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        --conteiner-width: 720px;
+    }
+    html,
+    body {
+        font-size: 16px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        --conteiner-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        --conteiner-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        --conteiner-width: 1320px;
+    }
+}

@@ -1,0 +1,110 @@
+.item-manager {
+    padding: 0.1rem 0.3rem 1rem;
+    font-size: 1rem;
+}
+
+.item-manager table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: auto;
+    text-align: center;
+}
+
+.item-manager th,
+.item-manager td {
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    max-width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word; /* Позволяет переносить текст на следующую строку */
+}
+
+.item-manager th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #000;
+    padding: 0.5rem 0.3rem;
+}
+
+.item-manager tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.item-manager tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.item-manager td.description-cell {
+    width: 40%;
+}
+
+.item-manager td.image-cell {
+    width: auto;
+    height: auto;
+    max-width: 230px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.item-manager img {
+    width: 169px;
+    height: auto;
+    max-width: 230px;
+}
+
+.item-manager button {
+    margin-bottom: 0.5rem; /* Добавляем отступ снизу, чтобы кнопки располагались одна над другой */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.item-manager .btn-add {
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.item-manager .btn-edit {
+    background-color: #007bff;
+}
+
+.item-manager .btn-delete {
+    background-color: #dc3545;
+}
+
+.item-manager button:hover {
+    background-color: #0056b3;
+}
+
+.item-manager .btn-delete:hover {
+    background-color: #c82333;
+}
+
+.item-manager .image-placeholder {
+    width: 169px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid #ccc;
+    max-width: 230px;
+    text-align: center;
+}

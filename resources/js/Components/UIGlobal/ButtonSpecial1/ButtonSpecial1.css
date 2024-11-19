@@ -1,0 +1,26 @@
+.special__button,
+.special__button:visited {
+    --color: #cc241e;
+    --hover: #bca119;
+    --standart-value: 0.8rem 2rem;
+    font-size: 1.3rem;
+    border: 2px solid var(--color);
+    padding: var(--standart-value);
+    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+    color: var(--color);
+    transition: 0.3s;
+    background: none;
+    font: inherit;
+    line-height: 1;
+    margin: 0.3rem;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+
+.special__button:hover,
+.special__button:focus {
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+    border-color: var(--hover);
+    color: #fff;
+}

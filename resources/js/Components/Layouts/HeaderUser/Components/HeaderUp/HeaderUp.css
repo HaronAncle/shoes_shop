@@ -1,0 +1,111 @@
+.header__up {
+    background: var(--main-theme-background);
+    color: var(--main-theme-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(var(--padding-topdown-standart) * 0.8)
+        calc(var(--padding-sides-standart) * 0.6);
+}
+.header__telephoneblock {
+    display: flex;
+    display: none;
+    align-items: center;
+}
+.header__telephonelogo {
+    margin-right: calc(var(--margin-standart) * 0.3);
+}
+
+.header__menuhide {
+    display: flex;
+    align-items: center;
+    background: var(--header-background);
+}
+.header__menuhide:hover * {
+    color: var(--header-hover-text-color);
+}
+.header__menuhide:hover svg path {
+    fill: var(--header-hover-text-color);
+}
+.header__menuhideicon {
+    margin-right: 15px;
+}
+.header__menuhidetitle {
+    display: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--header-text-color);
+}
+
+.header__logoblock {
+    font-family: var(--main-theme-font);
+    font-size: calc(var(--main-theme-fontsize) * 0);
+    padding: 0 10px;
+}
+.header__accbusketblock {
+    display: flex;
+    margin-right: calc(var(--margin-standart) * -1);
+    align-items: center;
+}
+.header__accbusketblock > * {
+    margin-right: calc(var(--margin-standart) * 0.3);
+}
+.header__search {
+}
+
+.header__accountbascount {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    background: var(--count-header-background);
+    color: var(--count-header-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+.header__accbusketblock > *:hover svg path {
+    fill: var(--header-hover-text-color);
+}
+@media (min-width: 350px) {
+    .header__logoblock {
+        font-size: calc(var(--main-theme-fontsize) * 0.7);
+    }
+}
+@media (min-width: 576px) {
+    .header__menuhidetitle {
+        display: inline-block;
+    }
+    .header__logoblock {
+        font-size: calc(var(--main-theme-fontsize) * 1);
+    }
+    .header__up {
+        padding: calc(var(--padding-topdown-standart) * 0.8)
+            calc(var(--padding-sides-standart) * 1);
+    }
+    .header__accbusketblock > * {
+        margin-right: calc(var(--margin-standart) * 0.7);
+    }
+}
+@media (min-width: 768px) {
+    .header__up {
+        padding: calc(var(--padding-topdown-standart) * 0.8)
+            calc(var(--padding-sides-standart) * 1.5);
+    }
+}
+@media (min-width: 992px) {
+    .header__telephoneblock {
+        display: flex;
+    }
+    .header__menuhide {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}

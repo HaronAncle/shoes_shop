@@ -1,0 +1,25 @@
+.dashboardblock {
+    padding: 16px 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+    .dashboardblock {
+        padding: 24px 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .dashboardblock {
+        padding: 28px 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dashboardblock {
+        padding: 32px 20px;
+    }
+}

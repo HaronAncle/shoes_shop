@@ -1,0 +1,64 @@
+.itemarea__reviewblock {
+    width: 100%;
+    margin: 20px 0;
+}
+.itemarea__review-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0 0 7px;
+}
+.itemarea__review-subtitle {
+    margin: 0 0 7px;
+}
+a.href-for-next {
+    color: red;
+}
+a.href-for-next:hover {
+    text-decoration: underline;
+}
+.itemarea__review-button {
+    padding: 7px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    margin-bottom: 14px;
+    background: var(--main-theme-background);
+    color: var(--main-theme-text-color);
+    transition: 0.2s;
+}
+.itemarea__review-button:hover {
+    background: var(--main-theme-hover-background);
+}
+.itemarea__review-selfblock {
+    width: 100%;
+}
+.itemarea__reviewitem {
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 10px 3px 4px;
+}
+.itemarea__reviewitem-up {
+    margin: 0 0 7px;
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+.itemarea__reviewitem-starblock {
+    display: flex;
+}
+.itemarea__reviewitem-username {
+}
+.itemarea__reviewitem-middle {
+    font-size: 0.9rem;
+}
+.itemarea__reviewitem-middle-subblock {
+    margin: 0 10px 0 0;
+}
+.itemarea__reviewitem-down {
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 3px;
+    line-height: 1.2;
+    font-size: 1.1rem;
+}

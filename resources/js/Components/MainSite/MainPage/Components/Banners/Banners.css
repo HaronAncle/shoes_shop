@@ -1,0 +1,6 @@
+.banners {
+    padding: var(--padding-topdown-standart) 0;
+}
+.banners__div {
+    display: flex;
+}

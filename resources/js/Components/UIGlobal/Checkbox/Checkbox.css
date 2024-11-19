@@ -1,0 +1,26 @@
+.form-check-input {
+    color: var(--main-theme-background);
+    width: 18px;
+    height: 18px;
+}
+.form-check-input[type="checkbox"] {
+    margin: 4px 7px 0 0;
+}
+.form-check-input:checked {
+    background-color: var(--main-theme-background);
+    border-color: var(--main-theme-background);
+}
+.form-check-input:hover {
+    box-shadow: 0 0 0 0.15rem var(--main-theme-text-color);
+}
+.form-check-input:focus,
+.form-check-input:checked:focus,
+.form-check-input:indeterminate:focus,
+.form-check-input:hover:focus,
+.form-check-input:disabled:focus,
+.form-check-input:valid:focus,
+.form-check-input:invalid:focus,
+.form-check-input:required:focus,
+.form-check-input:optional:focus {
+    box-shadow: 0 0 0 0.05rem var(--main-theme-background);
+}

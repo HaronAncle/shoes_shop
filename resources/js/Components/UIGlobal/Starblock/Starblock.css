@@ -1,0 +1,21 @@
+.star-rating {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.star-rating.normal {
+    flex-direction: row;
+}
+.star-rating.reversed {
+    flex-direction: row-reverse;
+}
+/* .star-rating i {
+    color: #595959;
+} */
+
+.star-rating i {
+    color: orange;
+}
+.star-rating i.fas.fa-star-half-alt {
+    transform: rotateY(180deg);
+}

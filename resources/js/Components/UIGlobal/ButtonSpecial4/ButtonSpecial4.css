@@ -1,0 +1,15 @@
+.special__button4,
+.special__button4:visited {
+    padding: 7px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    margin-bottom: 7px;
+    background: var(--main-theme-background);
+    color: var(--main-theme-text-color);
+    transition: 0.2s;
+}
+.special__button4:hover {
+    background: var(--main-theme-hover-background);
+}

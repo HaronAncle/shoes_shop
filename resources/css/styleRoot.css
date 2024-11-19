@@ -1,0 +1,39 @@
+:root {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+
+    --margin-standart: 20px;
+    --padding-topdown-standart: 20px;
+    --padding-sides-standart: 20px;
+
+    --conteiner-width: 540px;
+
+    --standart-value: 10px;
+
+    --action-red: #e50505;
+    --standart-gray: #a1a1a1;
+    --main-theme-background: #4b3744;
+    --main-theme-hover-background: #6f5b68;
+
+    --main-theme-text-color: #fbbb76;
+    --main-theme-hover-text-color: #eedecb;
+
+    --main-theme-font: "Oranienbaum", serif;
+    --main-theme-fontsize: 56px;
+
+    --count-header-color: #e7e7e7;
+    --count-header-background: #e40d0d;
+
+    --header-background: var(--main-theme-background);
+    --header-text-color: var(--main-theme-text-color);
+    --header-hover-background: var(--main-theme-hover-background);
+    --header-hover-text-color: var(--main-theme-hover-text-color);
+
+    --main-body-background: #fcfcfc;
+    --main-body-text-color: #000000;
+
+    --footer-background: var(--main-theme-background);
+    --footer-text-color: var(--main-theme-text-color);
+    --footer-hover-background: var(--main-theme-background);
+    --footer-hover-text-color: var(--main-theme-hover-text-color);
+}

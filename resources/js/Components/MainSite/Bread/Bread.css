@@ -1,0 +1,21 @@
+.breadcrumbs {
+    margin: 10px 0;
+}
+.breadcrumbs__div {
+    width: 100%;
+    color: var(--standart-gray);
+    font-size: 0.9rem;
+}
+.breadcrumbs__urlreal {
+    display: inline-block;
+    padding: 1px;
+    border-bottom: 1px solid transparent;
+}
+.breadcrumbs__urlreal:hover {
+    border-bottom: 1px solid var(--action-red);
+    color: var(--action-red);
+}
+.breadcrumbs__text {
+    display: inline-block;
+    padding: 1px;
+}

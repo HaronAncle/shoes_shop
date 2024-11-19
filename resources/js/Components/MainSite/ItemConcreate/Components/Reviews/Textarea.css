@@ -1,0 +1,17 @@
+.textarea__form-control {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    resize: none;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.textarea__form-text {
+    color: #6c757d;
+    font-size: 0.875rem;
+}

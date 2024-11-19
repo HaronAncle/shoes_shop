@@ -1,0 +1,27 @@
+.form-radio-input {
+    color: var(--main-theme-background);
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+}
+.form-radio-input[type="radio"] {
+    margin: 4px 7px 0 0;
+}
+.form-radio-input:checked {
+    background-color: var(--main-theme-background);
+    border-color: var(--main-theme-background);
+}
+.form-radio-input:hover {
+    box-shadow: 0 0 0 0.15rem var(--main-theme-text-color);
+}
+.form-radio-input:focus,
+.form-radio-input:checked:focus,
+.form-radio-input:indeterminate:focus,
+.form-radio-input:hover:focus,
+.form-radio-input:disabled:focus,
+.form-radio-input:valid:focus,
+.form-radio-input:invalid:focus,
+.form-radio-input:required:focus,
+.form-radio-input:optional:focus {
+    box-shadow: 0 0 0 0.05rem var(--main-theme-background);
+}

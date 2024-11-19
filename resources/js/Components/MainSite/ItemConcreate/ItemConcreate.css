@@ -1,0 +1,45 @@
+.itemarea {
+}
+.container {
+}
+.itemarea__div {
+    width: 100%;
+}
+.itemarea__iteminfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.itemarea__left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 0 0 10px;
+}
+.itemarea__right {
+    width: 100%;
+    margin: 0 0 20px;
+}
+@media (min-width: 350px) {
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+    .itemarea__right {
+        flex: 0 1 40%;
+    }
+    .itemarea__left {
+        flex: 0 1 56%;
+        max-width: 56%;
+    }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}

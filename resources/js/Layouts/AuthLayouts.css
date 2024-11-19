@@ -1,0 +1,26 @@
+.login {
+    width: 100%;
+}
+
+.login__div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login__block {
+    overflow: hidden;
+    width: 50%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Заменяем границу на тень */
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+}
+.dashboard__logo {
+    font-size: 1.3rem;
+}

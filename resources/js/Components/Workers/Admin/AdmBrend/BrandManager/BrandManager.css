@@ -1,0 +1,109 @@
+.brand-manager {
+    padding: 0.1rem 0.3rem 1rem;
+    font-size: 1rem;
+}
+
+.brand-manager table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: auto;
+    text-align: center;
+}
+
+.brand-manager th,
+.brand-manager td {
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.brand-manager th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #000;
+    padding: 0.5rem 0.3rem;
+}
+
+.brand-manager tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.brand-manager tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.brand-manager td.description-cell {
+    width: 40%;
+}
+
+.brand-manager td.image-cell {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.brand-manager img {
+    width: 220px;
+    height: auto;
+    max-width: 300px;
+}
+
+.brand-manager button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.brand-manager .btn-add {
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.brand-manager .btn-edit {
+    background-color: #007bff;
+}
+
+.brand-manager .btn-delete {
+    background-color: #dc3545;
+}
+
+.brand-manager button:hover {
+    background-color: #0056b3;
+}
+
+.brand-manager .btn-delete:hover {
+    background-color: #c82333;
+}
+.brand-manager .image-placeholder {
+    width: 220px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    text-align: center;
+}
